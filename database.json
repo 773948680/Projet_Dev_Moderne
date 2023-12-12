@@ -1,0 +1,69 @@
+{
+    "cours": [
+        {
+            "id": "d4f2813a-cf4e-498d-be5e-7aa1bb0ea33f",
+            "titre": "Maths",
+            "description": "INtroduction aux algorithme",
+            "inscrits": [
+                "al@gmail.com"
+            ]
+        },
+        {
+            "id": "9444f4f6-5ee8-4e1e-aa87-2a8b58db4cca",
+            "titre": "Science",
+            "description": "Etude de Lhomme",
+            "inscrits": []
+        },
+        {
+            "id": "80e0edc0-ff3f-4839-bd03-d3a36b597441",
+            "titre": "Geographie",
+            "description": "introduction",
+            "inscrits": [
+                "alpha@.com"
+            ]
+        }
+    ],
+    "profs": [
+        {
+            "id": "82ab2cdc-f5ef-46af-bd5b-5c4e4fb72b86",
+            "prenom": "Samba",
+            "nom": "Sow",
+            "email": "algo@gmail.com",
+            "cours": ""
+        },
+        {
+            "id": "7d0483ae-7cb2-4c00-bcb0-529400fbf758",
+            "prenom": "Guro",
+            "nom": "Wane",
+            "email": "guro@gmail.com",
+            "cours": ""
+        },
+        {
+            "id": "43ef21aa-ff9f-4188-b7db-a8eb8f91abbd",
+            "prenom": "Muhamet",
+            "nom": "Toure",
+            "email": "muhamet@.com",
+            "cours": ""
+        }
+    ],
+    "etudiants": [
+        {
+            "id": "a0bcf072-c75b-404f-843f-f29a2adbfb6b",
+            "nom": "DIALLO",
+            "prenom": "Alpha",
+            "email": "al@gmail.com",
+            "courses": [
+                "Maths"
+            ]
+        },
+        {
+            "id": "882b916d-336b-416e-9fa2-545527d57292",
+            "nom": "DIALLO",
+            "prenom": "Alpha",
+            "email": "alpha@.com",
+            "courses": [
+                "Geographie"
+            ]
+        }
+    ]
+}
