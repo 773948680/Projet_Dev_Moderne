@@ -83,7 +83,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: "calc",
+            name: "calculatrice",
             message: "Taper les nombres"
         },
     ])
