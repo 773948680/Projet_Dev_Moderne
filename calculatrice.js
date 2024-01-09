@@ -35,9 +35,9 @@ const calculer = (operation) => {
             return plus;
         case "moins":
             return moins;
-        case "multiplierPar":
+        case "multPar":
             return multPar;
-        case "diviserPar":
+        case "divPar":
             return divPar;
         case "exit":
             exit();
@@ -64,7 +64,7 @@ const Calculatrice = (operation, ...args) => {
 
 const myRawlist = async () => {
     return await rawlist({
-         message: 'Select your operation',
+         message: 'Selectionne operation',
          choices: [
            { name: 'plus', value: 'plus' },
            { name: 'moins', value: 'moins' },
@@ -88,7 +88,7 @@ inquirer
         },
     ])
     .then((answers) => {
-        const numbers = answers.calc.trim().split(" ");
+        const numbers = answers.calculatrice.trim().split(" ");
         const theArg = numbers.map(Number);
 
         Calculatrice(operation, ...theArg);
