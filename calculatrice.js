@@ -65,7 +65,7 @@ const Calculatrice = (operation, ...args) => {
 const myRawlist = async () => {
     return await rawlist({
          message: 'Selectionne operation',
-         choices: [
+         choisires: [
            { name: 'plus', value: 'plus' },
            { name: 'moins', value: 'moins' },
            { name: 'multPar', value: 'multPar' },
